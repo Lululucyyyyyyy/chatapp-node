@@ -1,0 +1,100 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	color: #929292;
+	background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Simple-Background-Images-2.png");
+}
+
+h2{
+	text-align: center;
+	float: top;
+	color: #929292;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.button{
+	width: 200px;
+	border: none;
+	border-radius: 3px;
+	color: black;
+	padding: 10px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 10px;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.text_blob{
+	width: 300px;
+	border: solid #aa87ff;
+	border-radius: 3px;
+	text-align: left;
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Shadows Into Light Two', cursive;
+	margin: 10px;
+}
+
+.other{
+	align-self: left;
+}
+.me{
+	align-self: right;
+}
+
+.column {
+	float: left;
+	width: 40%;
+}
+
+.column2{
+	float: right;
+	width: 40%;
+}
+
+.display{
+	width: 100%;
+	border: none;
+	text-align: center;
+	color: black;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	align-self: center;
+	padding: 10px;
+	top: 0;
+	left: 0;
+	text-align: center;
+	color: #929292;
+	background-color: #f0f9ff;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+.footer{
+	position: fixed;
+	width: 100%;
+	background-color: #ffffff;
+	text-align: center;
+	align-self: center;
+	padding: 10px;
+	bottom:0;
+	left: 0;
+}
+
+input{
+	width: 75%;
+	padding: 5px, 5px;
+	margin: center;
+	border: 1px solid #aa87ff;
+	font-family: 'Shadows Into Light Two', cursive;
+}
+
+input[type=text]:focus {
+	background-color: #d1beff;
+	color: #ffffff;
+	font-family: 'Shadows Into Light Two', cursive;
+}

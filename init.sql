@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS chatapp;
+
+USE chatapp;
+
+CREATE TABLE IF NOT EXISTS users (
+	id INT AUTO_INCREMENT NOT NULL,
+	username VARCHAR(255),
+	password VARCHAR(255),
+	PRIMARY KEY (id)
+);
+
+CREATE TABLE IF NOT EXISTS messages(
+	id INT AUTO_INCREMENT NOT NULL,
+	user INT,
+	message VARCHAR(255),
+	PRIMARY KEY (id),
+	FOREIGN KEY (user) REFERENCES users(id)
+);
